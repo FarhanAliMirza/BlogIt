@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import { AuthInput, authInput } from "@farhan-ali-mirza/blog-common";
+import { AuthInput } from "@farhan-ali-mirza/blog-common";
 import { BACKEND_URL } from "../config";
 
 type AuthFormProps = {
